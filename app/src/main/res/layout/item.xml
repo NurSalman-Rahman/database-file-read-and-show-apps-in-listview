@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="4"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="otp_id"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:id="@+id/otp_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="mobile"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:id="@+id/mobile_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="otp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:id="@+id/otpcode_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="status"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:id="@+id/status_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+<!--        <TextView
+            android:textColor="@color/black"
+            android:text="reference"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:id="@+id/reference_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="date"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:id="@+id/dateid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>-->
+    </LinearLayout>
+
+
+
+
